@@ -1,10 +1,14 @@
-import Quiz from './components/Quiz';
+import './App.css';
+import { Outlet } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <Quiz />
-    </div>
+    <>
+      <Navbar />
+      <Outlet />
+    </>
   );
 }
 

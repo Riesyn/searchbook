@@ -1,7 +1,7 @@
 import express from 'express';
 const router = express.Router();
-import questionRoutes from './questionRoutes.js';
+import userRoutes from './user-routes.js';
 
-router.use('/questions', questionRoutes);
+router.use('/users', userRoutes);
 
 export default router;

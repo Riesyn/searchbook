@@ -1,3 +1,3 @@
-import Question from './Question.js';
+import User from './User';
 
-export default { Question };
+export default { User };
