@@ -1,4 +1,4 @@
-import { User } from '../models/User';
+import User from '../models/User';
 import { signToken } from '../utils/auth';
 import { AuthenticationError } from 'apollo-server-express';
 
